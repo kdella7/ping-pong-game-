@@ -1,11 +1,11 @@
-#imported turtle module !
+#imported turtle module ! yes
 import turtle
 
 wind=turtle.Screen() # inthialize screen
 wind.title('ping pong by khaled ')#set the title of the window
 wind.setup(width=800,height=600)#set the dimention
 wind.bgcolor('black')#set screen colour
-wind.tracer(0)#stops the window from automaticly update
+wind.tracer(0)#stops the window from automaticly update ##
 
 #paddle1
 paddle1=turtle.Turtle()#intialize turtle object
