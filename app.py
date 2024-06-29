@@ -1,4 +1,4 @@
-#imported turtle module ! yes
+#imported turtle module 
 import turtle
 
 wind=turtle.Screen() # inthialize screen
@@ -86,7 +86,7 @@ while True: #main game loop
 #border check  top border=300 pixel , buttom border =-300 pixel , ball is 20 pixel
     if ball.ycor()>290: #if ball is at top border
         ball.sety(290)#set y cordonate at 290
-        ball.dy*=-1 # reverse direction of the ball !
+        ball.dy*=-1 # reverse direction of the ball 
         
     if ball.ycor()<-290:
         ball.sety(-290)
